@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+</head>
+<body>
+    <h1>Информация о вас</h1>
+    <hr color="red">
+    <form>
+        <div>
+        <label for="text">Email</label>
+        <input type="email" id="text" placeholder="Введите email">
+    </div>
+    <br>
+    <div>   
+        <label for="22">Password</label>
+        <input type="password" id="22"> 
+
+    </div>
+    <br>
+    <div>
+        <label for="21">О себе  </label>
+        <input type="text" id="21">
+    </div>
+    <br>
+    <div>
+        <label for="23">Возраст</label>
+        <input type="number" id="23" min="0" max="100">
+    </div>
+    <br>
+    <div>
+        <label for="24">Насколько Камиль ЛОХ</label>
+        <input type="range" id="24" min="-10" max="10"  step="0"> 
+    </div>
+    <br> 
+    <div>
+        <label for="25">Дата рождения</label>
+        <input type="date" id="25">
+    </div>
+    <br>
+    <div>
+        <label for="26">Любимый цветr</label>
+        <input type="color" id="26">   
+    </div>
+    <br>
+    <div>
+        <label for="27">Послание себе в будущее</label>
+        <br>
+        <textarea  id="27" cols="20" rows="3"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="28">Ваш пол</label>
+        <select  id="28">
+            <option value="male">мужчина</option>
+            <option value="female">женщина</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>Количество работ</label>
+        <input type="radio" name="work"> 1
+        <input type="radio" name="work"> 2
+        <input type="radio" name="work"> 3
+        <input type="radio" name="work"> 4
+        <input type="radio" name="work"> 5
+        <input type="radio" name="work"> 10+
+    </div>
+    <br>
+    <div>
+        <label>Любимая еда</label>
+        <input type="checkbox" name="food"> Хлеб
+        <input type="checkbox" name="food"> Суп
+        <input type="checkbox" name="foodk"> Фастфуд
+        <input type="checkbox" name="food"> Фрукты
+        <input type="checkbox" name="foodk"> Другое
+    </div>
+    <br>
+    </form>
+    <h2>Ваши возможные хобби</h2>
+    <ol type="1">
+    <li>Путешевствия</li>
+    <li>Бильярд</li>
+    <li>Киберспорт</li>
+    <li>Бег</li>
+</ol>
+    <br>
+    <div>
+        <label for="30">Ответ</label>
+        <input type="number" id="30" min="0" max="4">
+    </div>
+    <hr color="red"> 
+    <div>
+        <input type="submit" value="Отправить анкету на проверку">
+    </div>
+</body>
+</html>
